@@ -1,3 +1,6 @@
+require('dotenv').config();
+
+const express = require("express");
 const express = require("express");
 
 const healthRoute = require("./routes/health");
